@@ -59,3 +59,14 @@
 var materials = [ 'Table', 'Chair', 'Boxes', 'Press' ]; 
 
 console.log(materials.map(material => material.length))
+// output is [5,5,5,5]
+
+
+
+let name = "nik";
+let age = 22;
+let favoritecolor = "Red and Black";
+
+console.log(`Your name is ${name} you are ${age} years old and your favorite color is ${favoritecolor}`)
+
+//OUTPUT -Your name is nik you are 22 years old and your favorite color is Red and Black
