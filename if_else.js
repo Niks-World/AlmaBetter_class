@@ -217,8 +217,30 @@ rl.question('Enter the first number: 10', (nik1Input) => {
   });
 });
 
+
 //OUTPUT UNEXPATED The result of 10 + 20 is 30
 
+//Switch with Multiple Case
+
+let dayOfWeek = 'Tuesday';
+
+switch (dayOfWeek) {
+  case 'Monday':
+  case 'Tuesday':
+  case 'Wednesday':
+  case 'Thursday':
+  case 'Friday':
+    console.log('It is a weekday');
+    break;
+  case 'Saturday':
+  case 'Sunday':
+    console.log('It is a weekend');
+    break;
+  default:
+    console.log('Invalid day of the week');
+}
+
+//output its weekdays
 
 
 // check equal or not live time =1:59
@@ -238,6 +260,50 @@ else{
     console.log("Not equal")
 }
 
+//output not equal
 
+//Ternary operator in JavaScript:
+// https://www.freecodecamp.org/news/the-ternary-operator-in-javascript/
 
+// Tackle these questions head-on!
+// Convert the following code from if-else statement to Ternary operator.
 
+let score = 98 ;
+
+if(score >= 90){
+    result = "You got an A.";
+} 
+
+else if (score >= 80){
+    result = "You got an B.";
+}
+
+else if (score >= 70){
+    result = "You got an C.";
+}
+
+else if (score >= 60 ){
+    result = "You got an D.";
+}
+
+else {
+    result = "You got an E.";
+}
+
+console.log(result);
+
+// OUTPUT (YOU GOT AN A.)
+
+// OTHER WAY TO WRITE THE CODE
+
+let score1 = 85;
+
+let result1 = (score1 >= 90) ? "You got an A." :
+  (score1 >= 80) ? "You got a B." :
+  (score1 >= 70) ? "You got a C." :
+  (score1 >= 60) ? "You got a D." :
+  "You got an E.";
+
+console.log(result1);
+
+// OUTPUT (YOU GOT AN B)
