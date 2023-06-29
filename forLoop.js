@@ -151,4 +151,38 @@ while ( r < 5) ;
  for (let c =10; c>=1; c--){
     console.log(c)
  }
- // 10 9 8 7 6 5 4 3 2 1 
+ // o/p 10 9 8 7 6 5 4 3 2 1 
+
+ // print number from 10 to 1 in horizontal
+
+ let bag= "";
+
+ for (let x= 10; x >= 1; x--){
+    bag+= x + " ";   //" " will add space in between
+ }
+ console.log(bag);
+ // o/p- 10 9 8 7 6 5 4 3 2 1 in horiznatl
+
+ // print odd number between 1 and 20 in a horizontal line
+
+ // getting odd numbr ==> done
+ // printing them ==> done
+ // horizontally ==> done
+
+ for (let a = 1; a <= 20; a++){
+    if (a %  2 == 1){
+        console.log(a)
+    }
+ }
+ // 1 3  5 7 9 11 13 15 17 19
+
+ //how to print horizontal 
+
+ let horiznatl="";
+ for (let s=1 ; s <= 20; s++){
+    if(s %2 == 1){
+        horiznatl += s + " ";  //" " add space in between output
+    }
+ }
+console.log(horiznatl)
+// now the out put is horizontal 
