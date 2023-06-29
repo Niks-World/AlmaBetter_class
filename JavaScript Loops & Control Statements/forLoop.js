@@ -232,6 +232,77 @@ let sam =0;
  // o/p 76 
 
  console.log(2+4+5+6+8+10+12+14+15) // this just for adding 
+
+ // other way to write this code 
+
+ let man = 0;
+
+ for ( let j = 1; j <= 15; j++){
+    j % 2 == 0 || j % 5 == 0 ? man += j : "";
+ }
+console.log(man)
+// output will be the same 
+
+// FACTORIAL
+
+//write a code calculate the factorial of any givien number
+
+let sag = 7;  // what ever is vale will multiplay by 7*6*5*4*3*2*1 =5040
+
+let factorial =1;
+for( let k = 1; k <= sag; k++){
  
+    factorial *= k;
+}
+console.log(factorial)
+// o/p -5040
+
+// calculate the avarge of even number in a range of 1 to 50
+
+let w =0;
+let count =0;  // when we have to count 
+
+for(let h =1; h <= 50; h++){
+  if ( h % 2 == 0 ){
+    w += h;  
+    count++;    // add the count wit (++)
+  }
+ 
+}
+console.log("the avg is",w/count) 
+// 2 4 6 8 10 12 14 16 18 20 22 24 26 28 30 32 34 36 38 40 42 44 46 48 50
+// 650 25
+// the avg is 26
+
+// while loop for printing i == 3 o/p -12345
+
+let u=1;
+
+while (u <= 5){           // 3 <= 5 no than loop is continue
+    console.log(u);
+    u++;
+    
+    if (u == 3){
+        continue;         // print the match value 
+    }
+}
+// o/p[12345]
+
+// for loop method 
+
+for (let y =1; y <= 5; y++){    // same code with for method
+    console.log(y);           // wheni put continue here than i will skip the 3
+    if(y == 3){
+        continue;
+    }
+}
+// o/p will came 12345 but 
 
 
+for (let y =1; y <= 5; y++){    // same code with for method
+    if(y == 3){
+        continue;          // contiuen uper rahe ga console se tab usko print nhi karye ga jo value match hoga 
+    }
+    console.log(y);
+}
+  // o/p- 1 2 4 5  

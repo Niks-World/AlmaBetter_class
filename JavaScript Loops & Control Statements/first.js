@@ -43,19 +43,8 @@
 // The result of 4 + 5 is 9
 
 
-// <!DOCTYPE html>
-// <html>
-// <body>
-
-// <div id="demo">
-//   <h2>Let AJAX change this text</h2>
-//   <button type="button" onclick="loadDoc()">Change Content</button>
-// </div>
-
-// </body>
-// </html>
-
 // this question ask on the QUIZ 
+
 var materials = [ 'Table', 'Chair', 'Boxes', 'Press' ]; 
 
 console.log(materials.map(material => material.length))
@@ -70,3 +59,5 @@ let favoritecolor = "Red and Black";
 console.log(`Your name is ${name} you are ${age} years old and your favorite color is ${favoritecolor}`)
 
 //OUTPUT -Your name is nik you are 22 years old and your favorite color is Red and Black
+
+
