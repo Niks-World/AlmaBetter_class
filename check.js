@@ -25,5 +25,19 @@
 // var a=0
 // for(a; a<5; a++);
 // console.log(a)
- function tail(o) {
-    for(; o.next;o=o.next) ; return o; }
+//  function tail(o) {
+//     for(; o.next;o=o.next) ; return o; }
+
+
+let a = 5;
+let b = 10;
+
+console.log("Before swapping:");
+console.log("a =", a);
+console.log("b =", b);
+
+[a, b] = [b, a];
+
+console.log("After swapping:");
+console.log("a =", a);
+console.log("b =", b);

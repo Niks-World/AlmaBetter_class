@@ -25,4 +25,8 @@
 // // Output3
 
 
-
+let a=10 
+ if (a <= 30){
+    console.log("great ")
+ }
+ 
