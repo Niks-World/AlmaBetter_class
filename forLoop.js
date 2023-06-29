@@ -120,4 +120,28 @@ console.log(`The sum of positive number is ${sum}`)
 // console.log(`The sum of positive numbers is ${sum}`);
 // output 23
 
+// Here's the syntax for the do...while loop in JavaScript:
+// Example 1: To display Numbers from 1 to 5
 
+let r = 1;
+
+do {
+    console.log(r);
+    r++;
+}
+while ( r < 5) ;
+//out put 12345
+
+//break Statement
+// 1 to 5  break with for Loop
+
+ for (let z = 1; z <= 10; z++){
+    if (z === 5 ){
+        break;
+    }
+    console.log(z);
+ }
+ //12345
+
+ //continue Statement
+ 
