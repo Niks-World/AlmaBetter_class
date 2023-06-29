@@ -155,7 +155,7 @@ while ( r < 5) ;
 
  // print number from 10 to 1 in horizontal
 
- let bag= "";
+ let bag= ""; 
 
  for (let x= 10; x >= 1; x--){
     bag+= x + " ";   //" " will add space in between
@@ -186,3 +186,52 @@ while ( r < 5) ;
  }
 console.log(horiznatl)
 // now the out put is horizontal 
+
+// Print number from 1 to 5
+
+let sun = 0;
+for(let v = 1; v <= 5; v++){
+    sun = sun +v; // string = number = string 
+}
+console.log(sun)    // '''' + 1 => "1"
+                   // "1" + 2 +>"11"  // "12" + 3 => "123"  // "123" +4 =>"1234"
+//output 15 but we want 1 to 5
+
+let san = "";
+for(let v = 1; v <= 5; v++){
+    san = san +v; // string = number = string 
+}
+console.log(san) 
+
+//now out put is 123455
+
+// i want following output
+// 1-*2-*3-*4-*
+
+console.log("1-*2-*3-*4-*")  // this is not the write way
+
+let ana = "";
+for( let b = 1; b <= 4; b++ ){
+    ana = ana +b + "-*";
+}
+console.log(ana)
+// o/p - 1-*2-*3-*4-* this is the write way.
+
+
+// print the sum of those number that are divisble by 2 or 5 between
+// a range of 1 and 15
+
+let sam =0;
+ for (let l = 1; l <= 15; l++){
+
+    if (l % 2 == 0 || l % 5 == 0){  // 2+4+5+6+8+10+12+14+15 (diviedby)
+        sam += l;
+    }
+ }
+ console.log(sam)
+ // o/p 76 
+
+ console.log(2+4+5+6+8+10+12+14+15) // this just for adding 
+ 
+
+
