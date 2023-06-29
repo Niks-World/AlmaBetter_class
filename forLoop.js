@@ -144,4 +144,11 @@ while ( r < 5) ;
  //12345
 
  //continue Statement
- 
+
+
+ // write a code to printe number from 10 to 1
+
+ for (let c =10; c>=1; c--){
+    console.log(c)
+ }
+ // 10 9 8 7 6 5 4 3 2 1 
