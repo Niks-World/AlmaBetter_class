@@ -141,6 +141,55 @@ while(inside <= 5){
  // o/p - [aman ronak deelhi 1 2 3 4 5 6 44 55 66 ]
 
 
+// if you want to replace the array value for the index and 
+// insted of that add anything string or number
+// make a array and change the position of it with any name or number
+
+let arr8 = [1, 2, 3, 4];
+
+arr8[2]= "Superman";     // index number of arry 
+
+arr8[3]= 1000;
+
+console.log(arr8)  //o/p- 1 2 superman  1000
+
+
+// Q. print all the moive except Ghajni and Pushpa
+
+let arr9 = ["BATMAN", "RRR", "PUSHPA", "AVANGERS","GHAJNI",
+"BLACK PANTHER","KGF2"];
+
+// print the all movie 
+
+for(let m= 0; m <= arr9.length -1; m++){    // .length -1 will remove from last BUT now it will show if we add more value than it 
+//even if you add any moive after the first print
+
+if(arr9[m] == "PUSHPA"){          //this moive name will be remove from the list
+    continue;
+}
+if (arr9[m] == "GHAJNI"){     // this will also get remove
+    continue; 
+}  
+    console.log(arr9[m])
+}
+//output - BATMAN RRR AVANGERS BLACK PANTHER KGF2
+
+// there is other way to remove the name by using ( || or) gate . lets see
+
+let arr10 = ["BATMAN", "RRR", "PUSHPA", "AVANGERS","GHAJNI",
+"BLACK PANTHER","KGF2"];{
+
+    for (let i = 0; i<= arr10.length -1; i++){
+        if(arr10[i] === "PUSHPA" || arr9[i] === "GHAJNI") {
+            continue;
+        }
+        console.log(arr10[i])
+    }
+}
+
+
+
+
 
 
  
