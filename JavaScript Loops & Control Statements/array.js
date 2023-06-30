@@ -86,3 +86,61 @@ arr1.push(12,45);             // add [12 10 12 45]
 arr1.pop();                 // -1 [12 10 12]
 
 console.log(arr1);     // o/p - [12 10 12]
+
+
+
+// print the the all array in line by line useing index
+
+let arr2 = ["Aman", "Bruce", "Clark","Tony","Steeve","Chunnu"];
+
+console.log(arr2[0]);
+console.log(arr2[1]);
+console.log(arr2[2]);
+console.log(arr2[3]);
+console.log(arr2[4]);
+console.log(arr2[5]);
+
+// output will come line by line but if index is 1000 times than 
+// there is other way to print using for loop 
+
+for (let index = 0; index <= 5; index++){
+    console.log(arr2[index]);
+}
+// output will be line by line using for loop
+
+// we also can use while loop 
+
+let inside = 0;
+while(inside <= 5){
+    console.log(arr2[inside]);
+    inside++
+}
+ // this will also give me the same out put 
+
+
+ // Spread Operato(...)  ==> coping the elements of array
+ // it add arry in any array denoted by 3 dot(...)
+
+ //exaple
+
+ let arr4 = [1,2,3,4];
+
+ let arr5= [...arr4];
+ console.log(arr5)
+ // o/p- [1234] but i dont give any array to arr5 
+
+ // other exaple
+
+ let arr6 = [1,2,3];
+
+ let arr7= [4,5,6];
+
+ let details = ["Aman","Ronak","Delhi",...arr6, ...arr7, 44,55,66];
+
+ console.log(details);
+ // o/p - [aman ronak deelhi 1 2 3 4 5 6 44 55 66 ]
+
+
+
+
+ 
