@@ -29,15 +29,34 @@
 //     for(; o.next;o=o.next) ; return o; }
 
 
-let a = 5;
-let b = 10;
+// let a = 5;
+// let b = 10;
 
-console.log("Before swapping:");
-console.log("a =", a);
-console.log("b =", b);
+// console.log("Before swapping:");
+// console.log("a =", a);
+// console.log("b =", b);
 
-[a, b] = [b, a];
+// [a, b] = [b, a];
 
-console.log("After swapping:");
-console.log("a =", a);
-console.log("b =", b);
+// console.log("After swapping:");
+// console.log("a =", a);
+// console.log("b =", b);
+
+function range(length) {
+    a = 5;
+    for (i = 0; i < length; i++) {
+      console.log(a);
+    }
+  }
+  range(3);
+
+  var a = 10; do { a += 1; 
+    console.log(a); } while (a < 5);
+
+    const arr = [10, 20, 30];
+    let result = 0;
+    function myFunction(value, index, array) {  
+        result += value;
+    }
+    arr.forEach(myFunction);
+    console.log("Result: ", result)
