@@ -88,10 +88,31 @@
 //   console.log(c)
 // }
 
-let n=15;
-let m=2;
- for( let i =2 ; i<=15;  i+=2){
+// let n=15;
+// let m=2;
+//  for( let i =2 ; i<=15;  i+=2){
      
-  console.log(i);
+//   console.log(i);
 
- }
+//  }
+
+var a = [1,2,3,4,5];
+
+a.slice(0,3);
+console.log(a);
+
+var a = 0;
+var b = 0;
+
+while (a < 3) {
+  a++;
+  b = a;
+  console.log(b);
+}
+
+
+o = {x:1, y:{z:[false,null,""]}};
+
+s = JSON.stringify(o);
+
+p = JSON.parse(s);
