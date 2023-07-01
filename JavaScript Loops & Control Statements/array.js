@@ -180,13 +180,13 @@ let arr10 = ["BATMAN", "RRR", "PUSHPA", "AVANGERS","GHAJNI",
 "BLACK PANTHER","KGF2"];{
 
     for (let i = 0; i<= arr10.length -1; i++){
-        if(arr10[i] === "PUSHPA" || arr9[i] === "GHAJNI") {
-            continue;
+        if(arr10[i] === "PUSHPA" || arr9[i] === "GHAJNI") {    // or gate ( ||) either the elemt equal to value or == to the value
+            continue;  // skip 
         }
         console.log(arr10[i])
     }
 }
-
+// output - BATMAN RRR AVANGERS BLACK PANTHER KGF2
 
 
 
