@@ -188,6 +188,7 @@ let arr10 = ["BATMAN", "RRR", "PUSHPA", "AVANGERS","GHAJNI",
 }
 // output - BATMAN RRR AVANGERS BLACK PANTHER KGF2
 
+//-------------------------------------------------
 
 //find the maxium number in array
 

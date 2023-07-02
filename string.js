@@ -106,6 +106,61 @@ for (let j = 0; j <= arr1.length - 1; j++) {
 console.log(bag);
 // o/p => Donaldo
 
+// ## other way 
+
+let str2="Ronaldo";
+
+let new_str="";
+
+for (let i=0; i <=str2.length -1; i++){
+    if (str2[i] == "R"){
+        new_str += "D";
+    }
+    else{
+        new_str += str2[i];
+    }
+}
+console.log(new_str);
+// o/p => Donaldo
+
+//--------------------------------------------------------------
+
+// Add a new character at the end of a string
+// Add "R" at the end of string "str3"
+
+let str3 = "CHutiya";
+
+console.log(str3 +"R"); // this at last
+// if in front 
+console.log("Gandu " + str3 );
+
+//-----------------------------------------------------------
+
+/* if you want to change anything at the string or you want to 
+ genrate a new string ==> CONCATENATION*/
+
+
+ /* Print the charcater present at index number 2
+  each string in a line */
+
+  let arr3=["Aman","Rahul","Chummu","Shweta","Sanchi","Shivansh"];
+
+  console.log(arr3[0][2]); //m
+  console.log(arr3[1][2]); //h
+  console.log(arr3[2][2]); //u
+  console.log(arr3[3][2]);  //w
+
+  /* but this very long process we can use 
+    for loop */
+
+for( let i=0; i <= arr3.length -1; i++){
+    console.log(arr3[i][2]);
+}
+// o/p => m h u w n i
+
+
+
+
 
 
 
