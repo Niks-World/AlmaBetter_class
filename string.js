@@ -156,7 +156,47 @@ console.log("Gandu " + str3 );
 for( let i=0; i <= arr3.length -1; i++){
     console.log(arr3[i][2]);
 }
-// o/p => m h u w n i
+/* o/p => m 
+h
+u
+ w
+ n
+ i
+
+/* how can we take output in Horizontal */
+
+let arr4=["Aman","Rahul","Chummu","Shweta","Sanchi","Shivansh"];
+
+let bag1 ="";
+
+for( let i=0; i <= arr4.length -1; i++){
+    bag1 += arr4[i][2];
+}
+console.log(bag1);
+
+// now o/p in horizonta => ahuwni
+
+//-------------------------------------------------------------------
+
+/* Q. Given an array of names count 
+  the number of string form "a" or "A" */
+
+  let arr5=["Aman","Anshul","Chummu","Shweta","ajeet","Shivansh"];
+
+/* 1. count =0
+2. 0th index of string.
+3. "a" || "A" */
+
+let count =0;
+
+  for (let i = 0; i<= arr5.length-1; i++){
+    if(arr5[i][0] === "a" ||arr5[i][0] === "A" ){  // in arry index of [0] we are counting
+    count++;    
+    }
+  }
+  console.log(count);
+  // o/p => 3
+
 
 
 
