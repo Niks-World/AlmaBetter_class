@@ -189,7 +189,36 @@ let arr10 = ["BATMAN", "RRR", "PUSHPA", "AVANGERS","GHAJNI",
 // output - BATMAN RRR AVANGERS BLACK PANTHER KGF2
 
 
+//find the maxium number in array
+
+let arr11= [10, 30, 5, 50, 45];
+
+let notebook=0;
+
+for (ii =0; ii<=arr11.length -1; ii++ ){
+
+    if(arr11[ii] > notebook){
+
+        notebook = arr11[ii];
+    }
+}
+console.log(notebook);
+// o/p => 50
 
 
+//find the minmum number in array
+
+let arr12 = [-2, -7 , -1, -3, -4];
+
+let notebokk= Infinity;  // Infinty for ( min negtive ) 
+// -Infinity for maxium negavtive
+
+for (i=0; i <=arr12.length -1; i++){
+    if(arr12[i] < notebokk){
+        notebokk =arr12[i];
+    }
+}
+console.log(notebokk);
+// o/p => -7 because -1 -2 -3 -4 -5 -6 -7 so  7 is max negative 
 
  
