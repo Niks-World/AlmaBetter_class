@@ -138,10 +138,26 @@ for(i=0; i<=emp_details.length-1; i++){
 // Dot Notation
 // console.log(emp_details[3].salary);    nik salary 
 
+/* Q6. fine the name of product whose price is more than 1lakh  */
 
+let Product=[
+    {name: "MacBook", rating:4.5, price:180000},
 
+    {name: "Iphone 14 pro", rating:4.8, price: 120000},
 
+    {name: "Ipad Pro", rating: 4.2, price: 150000},
 
+    {name: "Apple watch 8", rating:4.8, price: 80000},
+
+];
+
+for(let i=0; i<=Product.length-1; i++){
+     
+    if(Product[i]["price"] > 100000){
+        console.log(Product[i].name);
+    }
+}
+// o/p=> MacBook Iphone 14 pro Ipad Pro  these are more than 1 lakh
 
 
 
