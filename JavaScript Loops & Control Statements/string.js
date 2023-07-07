@@ -47,7 +47,7 @@ let string ="Clark kent";
 // console.log(string[6]);   // k
 
 
-// this is very log process 
+// this is very long process 
 // we can use for loop insted
 
 for(let i = 0;  i <= string.length -1; i++){

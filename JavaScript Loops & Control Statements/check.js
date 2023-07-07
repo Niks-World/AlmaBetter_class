@@ -96,23 +96,59 @@
 
 //  }
 
-var a = [1,2,3,4,5];
+// var a = [1,2,3,4,5];
 
-a.slice(0,3);
-console.log(a);
+// a.slice(0,3);
+// console.log(a);
 
-var a = 0;
-var b = 0;
+// var a = 0;
+// var b = 0;
 
-while (a < 3) {
-  a++;
-  b = a;
-  console.log(b);
-}
+// while (a < 3) {
+//   a++;
+//   b = a;
+//   console.log(b);
+// }
 
 
-o = {x:1, y:{z:[false,null,""]}};
+// o = {x:1, y:{z:[false,null,""]}};
 
-s = JSON.stringify(o);
+// s = JSON.stringify(o);
 
-p = JSON.parse(s);
+// p = JSON.parse(s);
+
+
+const firstPromise = new Promise((res, rej) => {
+
+  setTimeout(res, 500, 'one');
+  
+  });
+  
+  const secondPromise = new Promise((res, rej) => {
+  
+  setTimeout(res, 100, 'two');
+  
+  });
+  
+  Promise.race([firstPromise, secondPromise]).then(res => console.log(res));
+
+
+  async function f() {
+
+    let result = 'first!';
+    
+    let promise = new Promise((resolve, reject) => {
+    
+    setTimeout(() => resolve('done!'), 1000);
+    
+    });
+    
+    result = await promise;
+    
+    console.log(result);
+    
+    }
+    
+    f();
+
+
