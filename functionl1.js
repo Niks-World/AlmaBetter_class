@@ -63,3 +63,12 @@ sum();             // adding 82
 sub();            //sub of 20
 multi();         //multip of 50
 dividion();     //dividion 10
+
+// Q3. print HelloWorld! 5 times
+
+function print(){
+    for(let i=1; i<=5; i++){
+    console.log("Hello World!");
+    }
+}
+print()  // 5 time helloWorld!
