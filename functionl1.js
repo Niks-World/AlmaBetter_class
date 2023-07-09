@@ -122,3 +122,61 @@ else{
 }
 Primecheck(18);    // Not a prime number   ye 2 se kat jaye ga
 Primecheck(23);    // Prime number because ye khud se or 1 se cut ta hai
+
+// How ( return ) Function work  
+
+function add(a,b){
+    return a+b;      // giving me the answer or return me the answer
+}
+
+let ans= add(10,5);  // this will give me the output of 15 
+
+if(ans % 2 ==0){
+    console.log("even number");
+}
+else{
+    console.log("odd number");
+}
+// it will use return when i need some extra opreation to be performed on the ans given back by function 
+
+
+/* chunnu is taking two number and adding them , then manu is taking the answer from chunnu and multiplaying it with 5,
+then aman is the answer from mannu and find the exponetitaion of it with a number 3,
+than rahul will print the final answer after multiplaying with 10.    */ 
+
+function chunnu(a,b){
+    return a+b;
+}
+
+function munnu(c){
+    return c*5;
+}
+function aman (d){
+    return d**3;
+}
+function rahul (z){
+    return z*10;
+}
+
+let step1 = chunnu(10,10);   //20  i give the value and  it will add and continue to step2 
+let step2 = munnu(step1);    //20*5=> 100  now whatever answer come to step1 it will multiply here 
+let step3 = aman(step2);     // 100**3 => 100000  same proce until step 4
+let step4 = rahul(step3);    //100000*10 => 10000000
+
+console.log(step4);     // i will get the out put 
+// o/p=> 10000000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
