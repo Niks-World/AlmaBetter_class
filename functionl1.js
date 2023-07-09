@@ -72,3 +72,53 @@ function print(){
     }
 }
 print()  // 5 time helloWorld!
+
+// how
+
+function add(a,b){
+    console.log(a+b);
+}
+
+add(10,10);  // 20
+add(10,5);    // 15
+add(-9,-8);    //17
+add(8,10);     //18
+add(14,14)     //28
+
+//Q4. check if the number is even or odd while using a function
+
+function even(num){
+
+  if(num%2==0){
+      console.log("even number");
+}
+  else{
+      console.log("odd number");
+}
+}
+// We can put any number to check it even or odd number 
+even(15);    //odd 
+even(5);    // odd
+even(6);    //even
+even(18);  // even
+
+//Q5. check if the number is Prime or not using a Function (prime or factor number means = jo khud se ya 1 se katye )
+
+function Primecheck(num){
+
+let factor=0;
+for(i =1; i<=num; i++){
+    if(num%i== 0){
+        factor++;
+    }
+}
+
+if(factor==2){
+    console.log("Prime Number");
+}
+else{
+    console.log("Not a Prime Number");
+}
+}
+Primecheck(18);    // Not a prime number   ye 2 se kat jaye ga
+Primecheck(23);    // Prime number because ye khud se or 1 se cut ta hai
