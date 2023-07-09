@@ -1,3 +1,5 @@
+// This is the code to know your live location 
+
 const getLocation=()=>{
    if('geolocation' in navigator) {
         navigator.geolocation.getCurrentPosition(success,error)
