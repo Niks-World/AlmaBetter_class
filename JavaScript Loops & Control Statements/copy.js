@@ -161,38 +161,47 @@ isPrime();
 // }
 // console.log(bag);
 
-function Primecheck(num){
+// function Primecheck(num){
 
-  let factor=0;
-  for(i =1; i<=num; i++){
-      if(num%i== 0){
-          factor++;
-      }
-  }
+//   let factor=0;
+//   for(i =1; i<=num; i++){
+//       if(num%i== 0){
+//           factor++;
+//       }
+//   }
   
-  if(factor==2){
-      console.log("Prime Number");
-  }
-  else{
-      console.log("Not a Prime Number");
-  }
-  }
-  Primecheck(13);  
-  Primecheck(119); 
+//   if(factor==2){
+//       console.log("Prime Number");
+//   }
+//   else{
+//       console.log("Not a Prime Number");
+//   }
+//   }
+//   Primecheck(13);  
+//   Primecheck(119); 
 
-let num =13;
-let count = 0;
-for(i=1; i<=num; i++){
-  if(num%i==0){
-    count++;
-  }
+// let num =13;
+// let count = 0;
+// for(i=1; i<=num; i++){
+//   if(num%i==0){
+//     count++;
+//   }
+// }
+// if(count==2){
+//   console.log("yes prime numer");
+// }
+// else{
+//   console.log("not a PN");
+// }
+
+
+let str ="nikhil";
+let num=3;
+let bag="";
+for(let i=1;i<=num; i++ ){
+  bag+=str+ "";
 }
-if(count==2){
-  console.log("yes prime numer");
-}
-else{
-  console.log("not a PN");
-}
+console.log(bag);
 
 
 
