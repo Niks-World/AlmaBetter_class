@@ -141,7 +141,7 @@ details.print(); // SAME OUTPUT WILL COME LIKE ABOVE
 
 //Q. if we get lots of number to add than we can use this function to add all the number  
 
-function sun(...x){   //sprade method // rest parameters
+function sun(...x){   //sprade method // rest parameters  / (...)it is converting all the perameter in single array 
 
     let total=0;
     for(let i=0; i<=x.length-1; i++){
