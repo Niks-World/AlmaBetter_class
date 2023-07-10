@@ -278,10 +278,10 @@ function mysplit(str11){
     let word="";
     for(let i =0; i<=str11.length-1; i++){
         if (str11[i]!= " "){
-            word +=str11[i];
+            word +=str11[i];    // converting the word
         }
         else{
-            arr.push(word);
+            arr.push(word);   // put the word i array 
             word="";
         }
     }
