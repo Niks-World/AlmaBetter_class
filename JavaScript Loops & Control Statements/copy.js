@@ -50,6 +50,50 @@
 // a=ciel(a)
 
 // document.writeIn(a*b);
-var tensquared = (function(x) {
-   return x*x;}
-   (10));
+// var tensquared = (function(x) {
+//    return x*x;}
+//    (10));
+
+// var o = new F(); 
+// o.constructor === F
+
+// var obj = new Fun(); 
+// obj.constructor === Fun 
+
+// function Ticket(from,to,pName){this.from=from; this.to=to; this.pName= pName; } 
+//     var ticket=new Ticket( "Udaipur","Pune","Raj" );
+
+// const pt1 = {}; const ob1 = Object.create(pt1); console.log( Object.getPrototypeOf(ob1) === pt1 )
+
+function Person() {
+   this.name = "Rahul";
+ }
+ 
+ function Obj() {
+   Person.call(this);
+ }
+ 
+ Obj.prototype = Object.create(Person.prototype);
+ const app = new Obj();
+ console.log(app.name);
+
+
+ const prototype1 = {}; const object1 = Object.create(prototype1); console.log(Object.getPrototypeOf(object1) === prototype1); 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
