@@ -56,7 +56,7 @@ let d = --c;     // c - by 1 become 9  and than c become d
 
 console.log(c)   // 9
 
-console.log(d);  //99
+console.log(d);  //9
 
 //Q  PRE INCREMENT POST INCREMENT 
 

@@ -257,3 +257,21 @@ for(let j in custome1){
     console.log(j,":" ,custome1[j]);  // all key and value will be printed
 
 }
+/* out put 
+name : Ramesh
+credit card
+payment : credit card
+1545315545463416
+card_number : 1545315545463416
+{
+  locallity: 'Hauz khas',
+  city: 'New Delhi',
+  pincode: '110065',
+  house: 'A-101'
+}
+address : {
+  locallity: 'Hauz khas',
+  city: 'New Delhi',
+  pincode: '110065',
+  house: 'A-101'
+} */
