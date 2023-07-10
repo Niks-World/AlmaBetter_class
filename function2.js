@@ -266,7 +266,29 @@ console.log(animals.slice(2));
 let arr6= [1,2,3,"aman"];
 console.log(arr6.join(" $ ")); // o/p is 1 $ 2 $ 3 $ aman i can put thing what every want to apply while joining the charetaer
 
+//Q2 converting string to array 
 
+let str10= "My Name IS Robert Kiyosaki";
+
+console.log(str10.split(" ")); // [ 'My', 'Name', 'IS', 'Robert', 'Kiyosaki' ]
+// but how can i create my owm splict function 
+
+function mysplit(str11){
+    let arr=[];
+    let word="";
+    for(let i =0; i<=str11.length-1; i++){
+        if (str11[i]!= " "){
+            word +=str11[i];
+        }
+        else{
+            arr.push(word);
+            word="";
+        }
+    }
+    console.log(arr);
+}
+mysplit("My Name IS Bruce Wayne");
+// op => [ 'My', 'Name', 'IS', 'Bruce' ] in array form 
 
 
 
