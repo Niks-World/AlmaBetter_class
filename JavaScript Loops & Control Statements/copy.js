@@ -25,10 +25,31 @@
 // // Output3
 
 
-let a=10 
- if (a <= 30){
-    console.log("great ")
- }
+// let a=10 
+//  if (a <= 30){
+//     console.log("great ")
+//  }
 
  
  
+// function multiply(a, b) {
+//    return a * b;
+//    }
+//    let result = multiply(3, 4);
+//    console.log(result);
+
+   // function myFunc(a, ...rest) {
+   //    console.log(a);
+   //    console.log(rest);
+   //    }
+   //    myFunc(1, 2, 3, 4);
+//    var a=3.7;
+
+// var b=2;
+
+// a=ciel(a)
+
+// document.writeIn(a*b);
+var tensquared = (function(x) {
+   return x*x;}
+   (10));
