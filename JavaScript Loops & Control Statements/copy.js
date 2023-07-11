@@ -195,19 +195,34 @@ isPrime();
 // }
 
 
-let str ="nikhil";
-let num=3;
-let bag="";
-for(let i=1;i<=num; i++ ){
-  bag+=str+ "";
+// let str ="nikhil";
+// let num=3;
+// let bag="";
+// for(let i=1;i<=num; i++ ){
+//   bag+=str+ "";
+// }
+// console.log(bag);
+
+
+function checkPrime(num){
+
+let count = 0;
+
+for (i=2; i<= num; i++){
+  if(num%2==0){
+    count++;
+  }
+
 }
-console.log(bag);
+if (count==0){
+  console.log("Prime Number");
+}
+else{
+  console.log("NOt Prime Number");
+}
+}
 
-
-
-
-
-
+checkPrime(7);
 
 
 
