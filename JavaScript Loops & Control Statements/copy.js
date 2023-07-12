@@ -208,13 +208,12 @@ function checkPrime(num){
 
 let count = 0;
 
-for (i=2; i<= num; i++){
-  if(num%2==0){
+for (i=1; i<= num-1; i++){
+  if(num%i==0){
     count++;
-  }
-
+  } 
 }
-if (count==0){
+if (count==1){
   console.log("Prime Number");
 }
 else{
@@ -222,7 +221,7 @@ else{
 }
 }
 
-checkPrime(7);
+checkPrime(4);
 
 
 
