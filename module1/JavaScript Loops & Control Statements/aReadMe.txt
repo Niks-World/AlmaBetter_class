@@ -15,4 +15,4 @@ JavaScript - XIII( Function I ) done 6/7/23 vs code(done)
 JavaScript - XIV( Function II) done 7/7/23 moring-4;14(d)
 JavaScript - XV( Object Methods ) done 7/7/23 vs code (d)
 Higher Order Functions (HOF) vs code (done)
-ES6 Session
+ES6 Session vs code(done) 15/7/23
