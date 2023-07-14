@@ -161,12 +161,55 @@ else{
 
 // Arrow Functions
 
+let sum1 = (a,b) => {        // => arrow function 
+    console.log(a + b);
+}
+sum1(10, 40)    // calling the function 
+// op=> 50
 
+//Q1 write a function to calculate the sum of all even numbers of the array
+// add the all even number
+let arr7= [1,2,3,4,5,6];
 
+let sum4=0;
+for(let i=0; i<=arr7.length-1 ; i++){
+    if(arr7[i] % 2 == 0){
+        sum4 += arr7[i];
+    }
+}
+console.log(sum4); //op => 12
 
+//let try with function than with arrow function 
 
+function addition (...a){
+    let sum = 0;
 
+    a.forEach(function(element,index){
+        if(element %2 == 0){ // i can also use ternay here 
+            sum+= element;    // element %2 ==0 ? sum+=element: ""; 
+                              //(in ternay alway need else so use "" blank Qute)
+        }
+    });
+    console.log(sum);
+}
+addition(1,2,3,4,5,6);
+// op=> same 12
 
+// let's try with arrow function 
+
+let addition1= (...nik) => {
+
+    let sum = 0;
+
+    nik.forEach((element,index) => {  // arrow inside arrow
+
+     element % 2== 0 ? sum+=element : ""; // ternary oprator
+
+    });
+    console.log(sum);
+}
+addition1(1,2,3,4,5,6);
+// same out put => 12
 
 
 
