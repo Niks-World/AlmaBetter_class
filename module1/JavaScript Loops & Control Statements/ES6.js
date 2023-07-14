@@ -117,11 +117,49 @@ new_array1.forEach(function(element,index){  //add function in side function
 
 console.log(sum); //  [6 + 7+ 8 + 9] => 30
 
+// ternary operator 
 
+/*Q7. Rahul want to supermarket to get some groceries, there is 
+a deal , if he spent more than or equal to 5000, he we get a discount of 20%,
+print the discounted price, if he gets a discount */
+ 
+let bill =6000;
+// this is traditonal way 
+if (bill >= 5000){
+    let new_bill= bill - (0.20 *bill);
+    console.log(new_bill);
+}
+else{
+    console.log("NA");
+} //op=> 4800     (20% of 6000 is 1200)
 
+// ternay style
 
+bill>= 5000 ? console.log(bill- (0.20 *bill)) : console.log("NA")
+// op=> 4800
 
+//Q8 find the greastest number using ternary 
 
+let a =10;
+let b=34;
+let c =8 ;
+// ternary style
+a > b && a > c ? console.log(a,"a is great"):b > c && b > a  ? console.log(b,"b is great") : console.log(c,"c is great");
+//34 b is great
+
+// traditonal way
+if(a > b && a > c){
+    console.log(a,"a is great");
+}
+else if (b > a && b > c ){
+    console.log(b,"b is great");
+}
+else{
+    console.log(c,"c is great");
+}
+// 34 b is great same output (tarnary make smart and simple)
+
+// Arrow Functions
 
 
 
