@@ -211,6 +211,31 @@ let addition1= (...nik) => {
 addition1(1,2,3,4,5,6);
 // same out put => 12
 
+/* Quiz Q1 given data array of string , reverse all the string
+ reversArrayString : function() {}
+ input => radha ram suraj panjak dinsh
+ ourput => ahdar mar jarus kajnap hsnid  */
+
+let data =["radha", "ram", "suraj", "panjak", "dinsh"];
+ 
+    let arrr=[];
+
+    for(let i=0; i<=data.length-1;i++){
+        let bag="";
+
+        for(let j=data[i].length-1; j >= 0; j--){
+            bag+=data[i][j];
+        }
+
+        arrr.push(bag);
+    }
+console.log(arrr); // without join function 
+ // [ 'ahdar', 'mar', 'jarus', 'kajnap', 'hsnid' ]
+
+console.log(arrr.join(" ")); 
+//ahdar mar jarus kajnap hsnid (this is correct output)
+
+ 
 
 
 
